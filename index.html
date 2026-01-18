@@ -15,19 +15,48 @@
         <!-- navbar section -->
         <nav class="bg-[#1A0B2E] w-full">
             <div class="flex justify-between items-center max-w-[1600px] mx-auto p-5 lg:px-[100px] lg:py-[30px]">
-                <h3 class="font-bold text-3xl text-white lg:text-5xl">Tech<span class="bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span></h3>
+                <h3 class="font-bold text-3xl text-white lg:text-5xl">Tech<span
+                        class="bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span>
+                </h3>
                 <ul class="hidden lg:flex gap-8 text-white font-medium">
                     <li><a href="">About</a></li>
                     <li><a href="">Episodes</a></li>
                     <li><a href="">Host</a></li>
                 </ul>
-                <button class="hidden lg:flex items-center gap-2 px-4 py-3 border-none rounded-full font-semibold text-white bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8]">Subscribe
+                <button
+                    class="hidden lg:flex items-center gap-2 px-4 py-3 border-none rounded-full font-semibold text-white bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8]">Subscribe
                     <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
                 </button>
                 <img class="lg:hidden" src="assets/hamburger-menu.png" alt="">
             </div>
-            <!-- <hr class="max-w-[1600px]"> -->
+            <hr class="max-w-[1600px] border-gray-600">
         </nav>
+
+        <!-- banner section -->
+        <section class="bg-[url('./assets/hero-bg.png')] bg-no-repeat bg-top lg:bg-center bg-cover w-full min-h-[660px] lg:min-h-[760px]">
+            <div class="mx-auto">
+                <div class="flex flex-col items-center justify-center">
+                    <p class="bg-[#00FF88] text-[##1A0B2E] font-semibold text-lg text-center py-1 w-[75px] rounded-full shadow-md relative z-10 top-[120px] left-[100px]">NEW</p>
+                    <div class="relative flex items-center justify-center mt-20 mb-10">
+                        <img class="w-[300px] lg:w-[350px]" src="assets/hero-circle.png" alt="">
+                        <img class="absolute m-auto w-[100px] lg:w-[120px]" src="assets/microphone.png" alt="">
+                    </div>
+                    <h3 class="font-extrabold text-[40px] text-white mb-2 lg:text-6xl">TechWave</h3>
+                    <p class="text-white pb-6 opacity-80 text-center">Your daily dose of tech insights, productivity hacks, and personal growth
+                    </p>
+                    <div class="flex items-center gap-2">
+                        <button
+                            class="btn flex gap-2 border-none rounded-full bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] text-white font-semibold px-5 py-3">
+                            <img src="assets/spotify.png" alt="">
+                            Listen on Spotify</button>
+                        <button
+                            class="flex h-10 gap-2 items-center border-2 border-[#00FF88] rounded-full font-semibold text-[#00FF88] bg-transparent px-5 py-3">
+                            <img src="assets/message.png" alt="">
+                            Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
 
     <main>
