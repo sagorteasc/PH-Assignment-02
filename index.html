@@ -6,11 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechWave</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/130209f2ad.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="inter">
     <header>
-        
+        <!-- navbar section -->
+        <nav class="bg-[#1A0B2E] w-full">
+            <div class="flex justify-between items-center max-w-[1600px] mx-auto p-5 lg:px-[100px] lg:py-[30px]">
+                <h3 class="font-bold text-3xl text-white lg:text-5xl">Tech<span class="bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span></h3>
+                <ul class="hidden lg:flex gap-8 text-white font-medium">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Episodes</a></li>
+                    <li><a href="">Host</a></li>
+                </ul>
+                <button class="hidden lg:flex items-center gap-2 px-4 py-3 border-none rounded-full font-semibold text-white bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8]">Subscribe
+                    <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                </button>
+                <img class="lg:hidden" src="assets/hamburger-menu.png" alt="">
+            </div>
+            <!-- <hr class="max-w-[1600px]"> -->
+        </nav>
     </header>
 
     <main>
