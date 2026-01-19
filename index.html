@@ -105,6 +105,7 @@
                         <div class="text-center">
 
                             <h3 class="font-black text-[#00FF88] text-5xl mb-2">150K+</h3>
+
                             <p class="text-white opacity-60 leading-5">Monthly Listeners</p>
 
                         </div>
@@ -113,6 +114,7 @@
                         <div class="text-center">
                             
                             <h3 class="font-black text-[#00FF88] text-5xl mb-2">200+</h3>
+
                             <p class="text-white opacity-60 leading-5">Episodes Published</p>
 
                         </div>
@@ -121,6 +123,7 @@
                         <div class="text-center">
 
                             <h3 class="font-black text-[#00FF88] text-5xl mb-2">4.9★</h3>
+
                             <p class="text-white opacity-60 leading-5">Average Rating</p>
 
                         </div>
@@ -129,6 +132,7 @@
                         <div class="text-center">
 
                             <h3 class="font-black text-[#00FF88] text-5xl mb-2">50+</h3>
+                            
                             <p class="text-white opacity-60 leading-5">Average Rating</p>
                             
                         </div>
@@ -220,7 +224,7 @@
             <div class="max-w-[1200px] w-fit mx-auto grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-[30px]">
 
                 <!-- card-1 -->
-                <div class="bg-[#250D44] rounded-3xl w-[320px] lg:w-[380px]">
+                <div class="bg-[#250D44] rounded-3xl w-[320px] lg:w-[380px] transition duration-300 ease-out hover:scale-125 hover:z-10 hover:opacity-100 lg:hover:translate-x-2/3">
 
                     <iframe class="rounded-t-3xl w-[320px] lg:w-[380px]" height="215px" src="https://www.youtube.com/embed/dv9q7Ema40k?si=PL_8SHWMY420CKTr"></iframe>
                     
@@ -243,7 +247,7 @@
                 </div>
 
                 <!-- card-2 -->
-                <div class="bg-[#250D44] rounded-3xl w-[320px] lg:w-[380px]">
+                <div class="bg-[#250D44] rounded-3xl w-[320px] lg:w-[380px] transition duration-300 ease-out hover:scale-125 hover:z-10 hover:opacity-100">
 
                     <iframe class="rounded-t-3xl w-[320px] lg:w-[380px]" height="215px" src="https://www.youtube.com/embed/VuZnXq9exp8?si=NdMLxBriQtJg_BUY"></iframe>
 
@@ -266,7 +270,7 @@
                 </div>
 
                 <!-- card-3 -->
-                <div class="bg-[#250D44] rounded-3xl w-[320px] lg:w-[380px]">
+                <div class="bg-[#250D44] rounded-3xl w-[320px] lg:w-[380px] transition duration-300 ease-out hover:scale-125 hover:z-10 hover:opacity-100 lg:hover:-translate-x-2/3">
                     
                     <iframe class="rounded-t-3xl w-[320px] lg:w-[380px]" height="215px" src="https://www.youtube.com/embed/J8VBh3JhNDY?si=7wopxlciVvmonPdW"></iframe>
 
@@ -349,33 +353,50 @@
 
     <footer>
 
-        <div class="bg-[url('./assets/footer-bg.png')] h-full mx-auto bg-repeat-x w-full bg-cover bg-center">
+        <div class="bg-[url('./assets/footer-bg.png')] bg-cover bg-center bg-no-repeat lg:bg-top">
 
-            <div class="max-w-[1360px] mx-auto text-center py-[120px]">
+            <div class="text-center py-5 lg:py-[120px]">
 
                 <h3 class="font-bold text-5xl text-white mb-6 lg:mb-8 lg:text-7xl">Tech<span class="bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span></h3>
 
-                <div class="grid grid-cols-2 gap-3 w-fit mx-auto mb-6 lg:mb-8 lg:flex lg:items-center lg:justify-center lg:gap-10">
+                <div class="grid grid-cols-2 gap-3 gap-x-6 gap-y-6 mx-auto mb-6 lg:mb-8 lg:flex lg:items-center lg:justify-center lg:gap-16">
                     
-                    <div class="flex gap-2 w-fit">
-                        <img class="w-6 h-6" src="assets/spotify.png" alt="">
-                        <p class="font-medium text-white opacity-60">Spotify</p>
-                    </div>
-                    <div class="flex gap-2 w-fit">
-                        <img class="w-6 h-6" src="assets/apple-podcast.png" alt="">
-                        <p class="font-medium text-white opacity-60">Apple Podcasts</p>
-                    </div>
-                    <div class="flex gap-2 w-fit">
-                        <img class="w-6 h-6" src="assets/youtube-podcast.png" alt="">
-                        <p class="font-medium text-white opacity-60">YouTube</p>
-                    </div>
-                    <div class="flex gap-2 w-fit">
-                        <img class="w-6 h-6" src="assets/twitter.png" alt="">
-                        <p class="font-medium text-white opacity-60">Twitter</p>
-                    </div>
-                </div>
+                    <div class="flex gap-2 items-center justify-center">
 
+                        <img class="w-6 h-6" src="assets/spotify.png" alt="">
+
+                        <p class="font-medium text-white opacity-60">Spotify</p>
+
+                    </div>
+
+                    <div class="flex gap-2 items-center justify-center">
+
+                        <img class="w-6 h-6" src="assets/apple-podcast.png" alt="">
+
+                        <p class="font-medium text-white opacity-60">Apple Podcasts</p>
+
+                    </div>
+
+                    <div class="flex gap-2 items-center justify-center">
+
+                        <img class="w-6 h-6" src="assets/youtube-podcast.png" alt="">
+
+                        <p class="font-medium text-white opacity-60">YouTube</p>
+
+                    </div>
+
+                    <div class="flex gap-2 items-center justify-center">
+
+                        <img class="w-6 h-6" src="assets/twitter.png" alt="">
+
+                        <p class="font-medium text-white opacity-60">Twitter</p>
+
+                    </div>
+
+                </div>
+                
                 <p class="text-[#FAFAFA] opacity-60 leading-6">&copy; 2026 TechWave Podcast. All rights reserved.</p>
+
             </div>
 
         </div>
