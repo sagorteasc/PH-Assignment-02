@@ -39,7 +39,7 @@
         </nav>
 
         <!-- banner section -->
-        <section class="bg-[#1A0B2E] bg-[url('./assets/hero-bg.png')] bg-no-repeat bg-top bg-contain lg:border-none lg:bg-center lg:min-h-[760px]">
+        <section class="bg-[#1A0B2E] bg-[url('./assets/hero-bg.png')] bg-repeat-x bg-top bg-contain lg:bg-center lg:min-h-[760px]">
 
             <div class="mx-auto">
 
@@ -213,7 +213,7 @@
         </section>
 
         <!-- featured section -->
-        <section class="bg-[#1A0B2E] py-10 lg:py-[120px]">
+        <section class="bg-[#1A0B2E] py-10 lg:py-[80px]">
 
             <h3 class="font-bold text-white text-center text-[32px] mb-6 lg:text-5xl lg:mb-10">Featured Episodes</h3>
 
@@ -295,7 +295,7 @@
         <!-- host section -->
         <section class="bg-[#1A0B2E] pb-10 lg:pb-[120px]">
 
-            <h3 class="font-bold text-white text-center text-[32px] mb-6 lg:text-5xl lg:mb-10">Meet the Host</h3>
+            <h3 class="font-bold text-white text-center text-[32px] mb-6 lg:text-5xl lg:pt-10 lg:mb-10">Meet the Host</h3>
 
             <div class="bg-[rgba(53,17,101,0.4)] max-w-[1200px] w-4/5 mx-auto rounded-3xl lg:w-full lg:rounded-[40px]">
 
@@ -349,7 +349,39 @@
 
     <footer>
 
+        <div class="bg-[url('./assets/footer-bg.png')] h-full mx-auto bg-repeat-x w-full bg-cover bg-center">
+
+            <div class="max-w-[1360px] mx-auto text-center py-[120px]">
+
+                <h3 class="font-bold text-5xl text-white mb-6 lg:mb-8 lg:text-7xl">Tech<span class="bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span></h3>
+
+                <div class="grid grid-cols-2 gap-3 w-fit mx-auto mb-6 lg:mb-8 lg:flex lg:items-center lg:justify-center lg:gap-10">
+                    
+                    <div class="flex gap-2 w-fit">
+                        <img class="w-6 h-6" src="assets/spotify.png" alt="">
+                        <p class="font-medium text-white opacity-60">Spotify</p>
+                    </div>
+                    <div class="flex gap-2 w-fit">
+                        <img class="w-6 h-6" src="assets/apple-podcast.png" alt="">
+                        <p class="font-medium text-white opacity-60">Apple Podcasts</p>
+                    </div>
+                    <div class="flex gap-2 w-fit">
+                        <img class="w-6 h-6" src="assets/youtube-podcast.png" alt="">
+                        <p class="font-medium text-white opacity-60">YouTube</p>
+                    </div>
+                    <div class="flex gap-2 w-fit">
+                        <img class="w-6 h-6" src="assets/twitter.png" alt="">
+                        <p class="font-medium text-white opacity-60">Twitter</p>
+                    </div>
+                </div>
+
+                <p class="text-[#FAFAFA] opacity-60 leading-6">&copy; 2026 TechWave Podcast. All rights reserved.</p>
+            </div>
+
+        </div>
+
     </footer>
+
 </body>
 
 </html>
