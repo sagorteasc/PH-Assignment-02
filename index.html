@@ -10,49 +10,70 @@
     <script src="https://kit.fontawesome.com/130209f2ad.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="inter">
-    <header>
+<body class="inter m-0">
+    <header class="bg-[#1A0B2E] w-full">
         <!-- navbar section -->
-        <nav class="bg-[#1A0B2E] w-full">
+        <nav class="w-full">
+
             <div class="flex justify-between items-center max-w-[1600px] mx-auto p-5 lg:px-[100px] lg:py-[30px]">
-                <h3 class="font-bold text-3xl text-white lg:text-5xl">Tech<span
-                        class="bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span>
-                </h3>
+
+                <h3 class="font-bold text-3xl text-white lg:text-5xl">Tech<span class="bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span></h3>
+
                 <ul class="hidden lg:flex gap-8 text-white font-medium">
                     <li><a href="">About</a></li>
                     <li><a href="">Episodes</a></li>
                     <li><a href="">Host</a></li>
                 </ul>
+
                 <button
                     class="hidden lg:flex items-center gap-2 px-4 py-3 border-none rounded-full font-semibold text-white bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8]">Subscribe
                     <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
                 </button>
+
                 <img class="lg:hidden" src="assets/hamburger-menu.png" alt="">
+
             </div>
-            <hr class="max-w-[1600px] border-gray-600">
+
+            <hr class="max-w-[1600px] mx-auto border-gray-600">
+
         </nav>
 
         <!-- banner section -->
-        <section class="bg-[url('./assets/hero-bg.png')] bg-no-repeat bg-top lg:bg-center bg-cover w-full min-h-[660px] lg:min-h-[760px]">
+        <section class="bg-[#1A0B2E] bg-[url('./assets/hero-bg.png')] bg-no-repeat bg-top bg-contain lg:border-none lg:bg-center lg:min-h-[760px]">
+
             <div class="mx-auto">
+
                 <div class="flex flex-col items-center justify-center">
-                    <p class="bg-[#00FF88] text-[##1A0B2E] font-semibold text-lg text-center py-1 w-[75px] rounded-full shadow-md relative z-10 top-[120px] left-[100px]">NEW</p>
-                    <div class="relative flex items-center justify-center mt-20 mb-10">
-                        <img class="w-[300px] lg:w-[350px]" src="assets/hero-circle.png" alt="">
-                        <img class="absolute m-auto w-[100px] lg:w-[120px]" src="assets/microphone.png" alt="">
+
+                    <p class="bg-[#00FF88] text-[##1A0B2E] font-semibold text-sm text-center py-1 w-[50px] rounded-full shadow-md relative z-10 top-5 left-9 lg:text-lg lg:w-[75px] lg:top-[120px] lg:left-[100px]">NEW</p>
+                    
+                    <div class="relative flex items-center justify-center mt-0 mb-5 lg:mt-20 lg:mb-10">
+
+                        <img class="w-[110px] lg:w-[350px]" src="assets/hero-circle.png" alt="">
+
+                        <img class="absolute m-auto w-[30px] lg:w-[120px]" src="assets/microphone.png" alt="">
+
                     </div>
+
                     <h3 class="font-extrabold text-[40px] text-white mb-2 lg:text-6xl">TechWave</h3>
-                    <p class="text-white pb-6 opacity-60 text-center">Your daily dose of tech insights, productivity hacks, and personal growth
+
+                    <p class="text-white pb-6 opacity-60 text-center w-11/12">Your daily dose of tech insights, productivity hacks, and personal growth
+
                     </p>
+
                     <div class="flex items-center gap-2">
+
                         <button
                             class="btn flex gap-2 border-none rounded-full bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] text-white font-semibold px-5 py-3">
                             <img src="assets/spotify.png" alt="">
-                            Listen on Spotify</button>
+                            Listen on Spotify
+                        </button>
+
                         <button
-                            class="flex h-10 gap-2 items-center border-2 border-[#00FF88] rounded-full font-semibold text-[#00FF88] bg-transparent px-5 py-3">
+                            class="flex h-12 gap-2 items-center border-2 border-[#00FF88] rounded-full font-semibold text-[#00FF88] bg-transparent px-5 py-3">
                             <img src="assets/message.png" alt="">
-                            Subscribe</button>
+                            Subscribe
+                        </button>
                     </div>
                 </div>
             </div>
@@ -62,32 +83,132 @@
     <main>
         <!-- about section -->
         <section class="bg-[#1A0B2E]">
-            <div class="w-[400px] pt-10 max-w-[1600px] mx-auto lg:w-full lg:pt-[50px]">
+
+            <div class="pt-10 lg:pt-[50px]">
+
                 <div class="text-center w-11/12 mb-10 mx-auto lg:w-3/4 lg:mb-20">
+
                     <h3 class="text-white font-bold text-[32px] mb-4 lg:text-5xl">About the Podcast</h3>
-                    <p class="text-white opacity-60 leading-5 mb-4 lg:mb-6">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.We break down complex topics into digestible insights, explore productivity strategies    that actually work, and share stories of personal growth from industry leaders.</p>
+                    
+                    <p class="text-white opacity-60 leading-5 mb-4 lg:mb-6">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.We break down complex topics into digestible insights, explore productivity strategies that actually work, and share stories of personal growth from industry leaders.</p>
+
                     <p class="text-white opacity-60 leading-5">Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+
                 </div>
-                    <hr class="border-white opacity-10 w-11/12 mx-auto pb-10 lg:w-3/4 lg:pb-20">
-                    <div class="grid grid-cols-2 gap-10 w-11/12 mx-auto pb-10 lg:pb-[120px] lg:w-3/4 lg:grid-cols-4">
+
+                    <hr class="border-white opacity-10 mx-auto pb-10 w-11/12 lg:pb-20">
+
+                    <div class="grid grid-cols-2 gap-6 pb-10 lg:pb-[120px] lg:gap-0 lg:grid-cols-4">
+
+                        <!-- card-1 -->
                         <div class="text-center">
-                            <h3 class="font-black text-[#00FF88] text-5xl mb-4">150K+</h3>
-                            <p class="text-white opacity-60">Monthly Listeners</p>
+
+                            <h3 class="font-black text-[#00FF88] text-5xl mb-2">150K+</h3>
+                            <p class="text-white opacity-60 leading-5">Monthly Listeners</p>
+
                         </div>
+
+                        <!-- card-2 -->
                         <div class="text-center">
-                            <h3 class="font-black text-[#00FF88] text-5xl mb-4">200+</h3>
-                            <p class="text-white opacity-60">Episodes Published</p>
+                            
+                            <h3 class="font-black text-[#00FF88] text-5xl mb-2">200+</h3>
+                            <p class="text-white opacity-60 leading-5">Episodes Published</p>
+
                         </div>
+
+                        <!-- card-3 -->
                         <div class="text-center">
-                            <h3 class="font-black text-[#00FF88] text-5xl mb-4">4.9★</h3>
-                            <p class="text-white opacity-60">Average Rating</p>
+
+                            <h3 class="font-black text-[#00FF88] text-5xl mb-2">4.9★</h3>
+                            <p class="text-white opacity-60 leading-5">Average Rating</p>
+
                         </div>
+
+                        <!-- card-4 -->
                         <div class="text-center">
-                            <h3 class="font-black text-[#00FF88] text-5xl mb-4">50+</h3>
-                            <p class="text-white opacity-60">Average Rating</p>
+
+                            <h3 class="font-black text-[#00FF88] text-5xl mb-2">50+</h3>
+                            <p class="text-white opacity-60 leading-5">Average Rating</p>
+                            
                         </div>
+
                     </div>
+
             </div>
+        </section>
+
+        <!-- why choose section -->
+        <section class="bg-[#230E3D]">
+
+            <h3 class="font-bold text-white text-[32px] pt-10 pb-4 text-center lg:pb-10 lg:pt-[120px] lg:text-[40px]">Why Choose TechWave</h3>
+
+            <div class="max-w-[1600px] mx-auto w-4/5">
+
+                <div class="grid grid-cols-1 max-w-[1200px] mx-auto gap-4 pb-10 lg:pb-[120px] lg:row-span-2 lg:col-span-2 lg:grid-cols-3 lg:gap-[30px]">
+
+                    <!-- card-1 -->
+                    <div class="bg-[rgba(53,17,101,0.4)] text-white p-6 rounded-3xl lg:pt-20 lg:rounded-[40px] lg:p-10">
+
+                        <img src="assets/headphone.png" alt="">
+
+                        <h4 class="font-bold text-2xl my-4">Premium Audio Quality</h4>
+
+                        <p class="opacity-60">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+
+                    </div>
+
+                    <div class="grid gap-4 lg:grid-cols-1 lg:gap-[30px] lg:col-span-2">
+
+                        <!-- card-2 -->
+                        <div class="bg-[rgba(53,17,101,0.4)] text-white p-6 rounded-3xl lg:rounded-[40px] lg:p-10">
+    
+                            <img src="assets/device.png" alt="">
+    
+                            <h4 class="font-bold text-2xl my-4">Mobile Friendly</h4>
+    
+                            <p class="opacity-60">Listen on the go with seamless mobile experience and offline downloads.</p>
+    
+                        </div>
+    
+                        <!-- card-3 -->
+                        <div class="bg-[rgba(53,17,101,0.4)] text-white p-6 rounded-3xl lg:rounded-[40px] lg:p-10">
+    
+                            <img src="assets/location.png" alt="">
+    
+                            <h4 class="font-bold text-2xl my-4">Global Community</h4>
+    
+                            <p class="opacity-60">Connect with tech enthusiasts from over 120 countries worldwide.</p>
+    
+                        </div>
+
+                    </div>
+
+                    <!-- card-4 -->
+                    <div class="bg-[rgba(53,17,101,0.4)] text-white p-6 rounded-3xl lg:col-span-2 lg:rounded-[40px] lg:p-10">
+
+                        <img src="assets/zap.png" alt="">
+
+                        <h4 class="font-bold text-2xl my-4">Exclusive Interviews</h4>
+
+                        <p class="opacity-60">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
+
+                    </div>
+
+                    <!-- card-5 -->
+                    <div class="bg-[rgba(53,17,101,0.4)] text-white p-6 rounded-3xl lg:rounded-[40px] lg:p-10">
+
+                        <img src="assets/resource.png" alt="">
+
+                        <h4 class="font-bold text-2xl my-4">Rich Resources</h4>
+
+                        <p class="opacity-60">Access show notes, transcripts, and additional learning materials for every episode.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </section>
     </main>
 
@@ -97,3 +218,4 @@
 </body>
 
 </html>
+
