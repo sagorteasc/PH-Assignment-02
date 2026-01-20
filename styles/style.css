@@ -9,16 +9,3 @@
      padding: 0;
      box-sizing: border-box;
 }
-
-/* keyframe animation */
-.round{
-     animation: round 2s linear infinite;
-}
-@keyframes round{
-     to{
-          transform: rotate(360deg);
-     }
-     from{
-          transform: rotate(0deg);
-     }
-}    
